@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "b9f633b29244fe59",
+    "type": "split",
+    "children": [
+      {
+        "id": "513abf601c45d5c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bfee868f6e28433",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Installations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03fc3eb13b62bc37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backups.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c847d861f0f232a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5615845b8943c972",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8fb646b72123d65",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c04a53e84a96d56b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39bdbf2b0e97aa9d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "22962c2ab8ffdc46",
+    "type": "split",
+    "children": [
+      {
+        "id": "0be82739dd8d70c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cd66aa37b58da58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Backups.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9c7faf27b6f75759",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Backups.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd2b18a3bea0e3dc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0d9b2c8ac67406e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Backups.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "03fc3eb13b62bc37",
+  "lastOpenFiles": [
+    "Programming/Installations.md",
+    "Backups.md",
+    "Templates.md",
+    "File for README.md",
+    "Programming/Troubleshooting.md",
+    "2022-10-22.md",
+    "Programming/Installations/Untitled.md",
+    "My first Test.md",
+    "Another file.md"
+  ]
+}
