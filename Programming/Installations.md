@@ -47,7 +47,7 @@ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 #### Troubleshooting?
-[[Troubleshooting#Docker Troubleshooting|Possible solution]]
+[Possible solution](https://github.com/MatAndreoli/Programming/blob/master/Programming/Troubleshooting.md#docker-troubleshooting)
 
 To use docker without sudo, you'll have to add your user to the docker group:
 ```shell
@@ -82,11 +82,6 @@ update-alternatives --config java
 ```shell
 sudo apt install maven
 ```
-Add/Update your ``.zshrc or /etc/environment`` file with:
-```shell
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
-```
-
 
 ## [Python](https://docs.python.org/3/)
 - ### [Pyenv](https://github.com/pyenv/pyenv) - Python Version Management
