@@ -165,6 +165,22 @@ curl -LO https://get.helm.sh/helm-v3.10.2-linux-amd64.tar.gz
 tar -zxvf helm-v3.0.0-linux-amd64.tar.gz
 mv linux-amd64/helm /usr/local/bin/helm
 ```
+## [Jenkins](https://www.jenkins.io/)
+```shell
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+```
+To start a jenkins server, run:
+```shell
+jenkins # it will start the jenkins it self
+docker run -it -e NGROK_AUTHTOKEN=AUTH_TOKEN --net=host ngrok/ngrok http 8080
+# this image will create a domain to the port in which jenkins is running (could be any service), http://localhost:8080/ -> https://some-domain. It is useful if you want to add a webhook that requires a web url, given that your localhost is not reachable from the web.
+docker run -d --restart=always -p 127.0.0.1:2376:2375 --network jenkins -v /var/run/docker.sock:/var/run/docker.sock alpine/socat tcp-listen:2375,fork,reuseaddr unix-connect:/var/run/docker.sock
+# this image will make a connection between jenkins and your local docker, so that you can use docker in jenkins pipelilne.
+```
+
 ## Fonts
 
 - MesloLGS NF (terminal)
