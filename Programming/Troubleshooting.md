@@ -9,7 +9,7 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docke
 
 Just run it, it'll start the docker service:
 ```shell
-sudo service docker start
+$ sudo service docker start
 ```
 
 ## WSL

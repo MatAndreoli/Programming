@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Installations.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backups.md",
+                "file": "Programming/Installations.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backups.md",
+                "file": "Programming/Installations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backups.md",
+                "file": "Programming/Installations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backups.md"
+                "file": "Programming/Installations.md"
               }
             }
           }
@@ -149,13 +149,24 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "03fc3eb13b62bc37",
   "lastOpenFiles": [
-    "Programming/Installations.md",
+    "README.md",
     "Backups.md",
+    "Programming/Troubleshooting.md",
+    "Programming/Installations.md",
     "Templates.md",
     "File for README.md",
-    "Programming/Troubleshooting.md",
     "2022-10-22.md",
     "Programming/Installations/Untitled.md",
     "My first Test.md",
